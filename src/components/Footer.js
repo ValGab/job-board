@@ -3,11 +3,11 @@ const Footer = () => {
     <>
       <p>
         Made with{" "}
-        <a href="https://fr.reactjs.org/" target="_blank">
+        <a href="https://fr.reactjs.org/" target="_blank" rel="noreferrer">
           React
         </a>{" "}
         at{" "}
-        <a href="https://www.lereacteur.io/" target="_blank">
+        <a href="https://www.lereacteur.io/" target="_blank" rel="noreferrer">
           Le Réacteur
         </a>{" "}
         by
