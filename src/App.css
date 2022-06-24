@@ -78,6 +78,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 footer p {
@@ -93,12 +94,18 @@ footer a {
 
 /* MEDIA QUERIES */
 
+@media (max-width: 1080px) {
+  .jobs-list {
+    margin: 0 25px;
+  }
+}
+
 @media (max-width: 700px) {
   .jobs-list {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin: 0 70px;
+    margin: 0 65px;
   }
 
   .job-red,
@@ -106,5 +113,9 @@ footer a {
   .job-green,
   .job-gold {
     width: 100%;
+  }
+
+  footer p {
+    font-size: 80%;
   }
 }
