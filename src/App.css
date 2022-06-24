@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/* HEADER */
+
+header {
+  height: 100px;
+  background-color: rgb(40, 40, 40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN */
+
+.jobs-list {
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.job-red,
+.job-blue,
+.job-green,
+.job-gold {
+  height: 250px;
+  width: calc((100% - 40px) / 3);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.job-red {
+  border: 4px solid red;
+}
+
+.job-blue {
+  border: 4px solid blue;
+}
+
+.job-green {
+  border: 4px solid green;
+}
+
+.job-gold {
+  border: 4px solid gold;
+}
+
+/* FOOTER */
+
+footer {
+  height: 70px;
+  background-color: rgb(40, 40, 40);
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+footer p {
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* MEDIA QUERIES */
+
+@media (max-width: 700px) {
+  .jobs-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0 70px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .job-red,
+  .job-blue,
+  .job-green,
+  .job-gold {
+    width: 100%;
   }
 }
