@@ -11,7 +11,11 @@ const Footer = () => {
           Le Réacteur
         </a>{" "}
         by
-        <a href="https://fr.linkedin.com/in/valentin-gaborieau" target="blank">
+        <a
+          href="https://fr.linkedin.com/in/valentin-gaborieau"
+          target="blank"
+          rel="noreferrer"
+        >
           {" "}
           Valentin Gaborieau
         </a>
