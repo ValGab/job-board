@@ -6,7 +6,7 @@ const Jobs = (props) => {
       <div className="container">
         <div className="jobs-list">
           <Job
-            className="job-blue"
+            className="blue"
             title="Full Time Sales Associate"
             contractType="CDI"
             country="Australie"
@@ -14,7 +14,7 @@ const Jobs = (props) => {
           />
 
           <Job
-            className="job-red"
+            className="red"
             title="Développeur FullStack JS"
             contractType="CDI"
             country="France"
@@ -22,7 +22,7 @@ const Jobs = (props) => {
           />
 
           <Job
-            className="job-blue"
+            className="blue"
             title="Chef de projets"
             contractType="CDI"
             country="Espagne"
@@ -30,42 +30,42 @@ const Jobs = (props) => {
           />
 
           <Job
-            className="job-red"
+            className="red"
             title="Intégrateur"
             contractType="CDI"
             country="France"
             city="Lyon"
           />
           <Job
-            className="job-green"
+            className="green"
             title="Développeur Backend"
             contractType="CDI"
             country="Angleterre"
             city="Londres"
           />
           <Job
-            className="job-gold"
+            className="gold"
             title="Développeur React"
             contractType="CDI"
             country="Suisse"
             city="Genève"
           />
           <Job
-            className="job-gold"
+            className="gold"
             title="Développeur React"
             contractType="CDI"
             country="Suisse"
             city="Genève"
           />
           <Job
-            className="job-blue"
+            className="blue"
             title="Développeur PHP"
             contractType="CDI"
             country="Belgique"
             city="Bruxelles"
           />
           <Job
-            className="job-green"
+            className="green"
             title="Développeur Python"
             contractType="CDI"
             country="France"
