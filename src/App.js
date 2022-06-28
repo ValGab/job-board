@@ -6,17 +6,9 @@ import Jobs from "./components/Jobs";
 function App() {
   return (
     <>
-      <header>
-        <Header />
-      </header>
-      <main>
-        <div className="container">
-          <Jobs />
-        </div>
-      </main>
-      <footer>
-        <Footer />
-      </footer>
+      <Header />
+      <Jobs />
+      <Footer />
     </>
   );
 }

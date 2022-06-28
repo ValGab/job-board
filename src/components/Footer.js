@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <>
+    <footer>
       <p>
         Made with{" "}
         <a href="https://fr.reactjs.org/" target="_blank" rel="noreferrer">
@@ -20,8 +20,7 @@ const Footer = () => {
           Valentin Gaborieau
         </a>
       </p>
-      ;
-    </>
+    </footer>
   );
 };
 
